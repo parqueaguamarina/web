@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+  }
+  
+  /* Estilos para el contenedor principal */
+  div {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px; /* Tamaño del título según tus preferencias */
+  }
+  
+  /* Estilos para la imagen */
+  img {
+    max-width: 100px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: auto;
+    vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+    margin-right: 10px; /* Espacio entre la imagen y el título */
+  }
+  
+  /* Estilos para el párrafo */
+  p {
+    max-width: 600px; /* Limita el ancho del párrafo según tus preferencias */
+    text-align: left; /* Alinea el texto del párrafo a la izquierda */
+    margin: 20px auto; /* Centra el párrafo horizontalmente y agrega espacio vertical */
+  }
+  
+  /* Estilos para el botón */
+  a {
+    display: inline-block;
+    padding: 10px 20px; /* Tamaño del botón según tus preferencias */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 20px; /* Espacio entre el párrafo y el botón */
+    transition: background-color 0.3s ease; /* Transición suave en el cambio de color de fondo */
+  }
+  
+  a:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+  }
+  
