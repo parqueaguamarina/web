@@ -1,9 +1,4 @@
-# Grupo Parque Agua Marina
-_Manzana E Las Brisas_
+# Parque Agua Marina Web
 
-Nuestro parque es para todos
+entry: index.html
 
-<!---
-parqueaguamarina/parqueaguamarina is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
