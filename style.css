@@ -1,14 +1,14 @@
 /* Estilos generales */
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    font-family: 'Fira Sans Condensed', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
   
   /* Estilos para el contenedor principal */
@@ -17,16 +17,17 @@ div {
 }
   
 h1 {
-    font-size: 48px;
-    color: rgb(45, 170, 255);
-    font-weight: 700;
+  font-size: 48px;
+  color: rgb(45, 170, 255);
+  font-weight: 700;
 }
 
 img {
-    max-width: 100px;
-    height: auto;
-    vertical-align: middle; 
-    margin-right: 10px;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: 750px;
 }
   
   /* Estilos para el párrafo */
@@ -43,9 +44,9 @@ a {
     display: inline-block;
     padding: 10px 20px;
     background-color:rgb(45, 170, 255);
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     margin-top: 20px;
     transition: background-color 0.3s ease;
 }
