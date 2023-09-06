@@ -49,6 +49,7 @@ a {
     border-radius: 5px;
     margin-top: 20px;
     transition: background-color 0.3s ease;
+    margin: 10px;
 }
   
 a:hover {
