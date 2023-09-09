@@ -30,7 +30,7 @@ img {
 }
   
   /* Estilos para el párrafo */
-p {
+p, li {
     max-width: 100%;
     text-align: justify;
     text-justify: inter-word;
@@ -38,7 +38,18 @@ p {
     font-size: 25px;
     font-weight: 500;
 }
-  
+
+ul {
+  list-style-position: outside;
+}
+
+li {
+  margin-left:24px;
+  text-align: left;
+  text-justify: auto;
+}
+
+
   /* Estilos para el botón */
 a {
     display: inline-block;
@@ -67,7 +78,7 @@ a:hover {
   h1 {
     font-size: 36px;
   }
-  p {
+  p, li {
     font-size: 18px;
   }
 }
@@ -83,7 +94,7 @@ a:hover {
   h1 {
     font-size: 42px;
   }
-  p {
+  p, li {
     font-size: 20px;
   }
 }
@@ -95,7 +106,7 @@ a:hover {
   h1 {
     font-size: 42px;
   }
-  p {
+  p, li {
     font-size: 20px;
   }
 }
