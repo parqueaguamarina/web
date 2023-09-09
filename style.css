@@ -41,6 +41,7 @@ p, li {
 
 ul {
   list-style-position: outside;
+  text-align: left;
 }
 
 li {
